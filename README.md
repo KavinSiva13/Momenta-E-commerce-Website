@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Momenta E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack **MERN Stack E-commerce Website** that provides a modern online shopping experience with product browsing, shopping cart functionality, user authentication, and a responsive user interface.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+* User registration and login
+* Browse products with detailed information
+* Add and remove items from the shopping cart
+* Responsive design for desktop, tablet, and mobile devices
+* RESTful API integration
+* MongoDB database for storing users and product data
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* HTML5
+* CSS3
+* JavaScript
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Node.js
+* Express.js
 
-### `npm run build`
+### Database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* MongoDB
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```text
+Momenta-Ecommerce/
+│
+├── frontend/          # React application
+├── backend/           # Express.js server and APIs
+├── templates/         # HTML templates/assets (if applicable)
+└── README.md
+```
 
-### `npm run eject`
+## ⚙️ Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/KavinSiva13/Momenta-E-commerce-Website.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Navigate to the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd Momenta-E-commerce-Website
+```
 
-## Learn More
+### 3. Install dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd backend
+npm install
+```
 
-### Code Splitting
+#### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd ../frontend
+npm install
+```
 
-### Analyzing the Bundle Size
+### 4. Configure environment variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Create a `.env` file inside the `backend` folder.
 
-### Making a Progressive Web App
+```env
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 5. Start the backend server
 
-### Advanced Configuration
+```bash
+cd backend
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 6. Start the frontend
 
-### Deployment
+```bash
+cd frontend
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The application will be available at:
 
-### `npm run build` fails to minify
+* Frontend: `http://localhost:3000`
+* Backend: `http://localhost:5000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📷 Screenshots
+
+Add screenshots of the following pages:
+
+* Home Page
+* Product Listing
+* Product Details
+* Shopping Cart
+* Login/Register
+
+## Future Enhancements
+
+* Product search and filtering
+* Wishlist functionality
+* Online payment integration
+* Order history
+* Admin dashboard
+* Product reviews and ratings
+
+## Author
+
+**Kavin S**
+
+* GitHub: https://github.com/KavinSiva13
+
+## License
+
+This project is intended for educational and portfolio purposes.
