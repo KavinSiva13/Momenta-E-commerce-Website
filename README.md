@@ -4,7 +4,6 @@ A full-stack **MERN Stack E-commerce Website** that provides a modern online sho
 
 ## 🚀 Features
 
-* User registration and login
 * Browse products with detailed information
 * Add and remove items from the shopping cart
 * Responsive design for desktop, tablet, and mobile devices
